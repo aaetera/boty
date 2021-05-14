@@ -6,7 +6,7 @@ from telepot.namedtuple import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboar
 from telepot.namedtuple import InlineKeyboardMarkup, InlineKeyboardButton
 
 
-TOKEN = '1491875457:AAFCEJ9bpxw0yccyslnlK7S6iG10cgSMXw4'
+TOKEN = ''
 bot = telepot.Bot(TOKEN)
 handler = sqlite3.connect('right orders.sqlite')
 db = handler.cursor()
